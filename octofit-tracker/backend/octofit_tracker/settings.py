@@ -25,7 +25,8 @@ SECRET_KEY = "django-insecure-6=c=4p3x!-+y@qgp_6y@_4)-mh6(e*8(xz3(tgs1kg!ys2e_i5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+# Add the codespace URL and localhost to ALLOWED_HOSTS
+ALLOWED_HOSTS = ['zany-fishstick-7vjqq5rj7r5cxpjw-8000.app.github.dev', 'localhost', '127.0.0.1']
 
 
 # Application definition
